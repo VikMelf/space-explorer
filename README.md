@@ -48,8 +48,6 @@ Feel free to reach out at vikme@example.com with feedback or suggestions!
 
 ## 🚀 Deployment
 
-The site is deployed via GitHub Pages:  
-https://your-username.github.io/space-explorer
 
 To run locally:
 1. Clone the repo
