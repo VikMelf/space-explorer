@@ -2,7 +2,7 @@
 
 A beautiful, educational, and fully interactive Solar System explorer built with **pure HTML, CSS, and JavaScript** – no external libraries or frameworks.
 
-Live Demo: [https://your-username.github.io/space-explorer](https://your-username.github.io/space-explorer) (replace with your actual link)
+Live Demo: https://vikmelf.github.io/space-explorer/
 
 ## 🚀 Features
 
