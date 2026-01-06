@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-lang="aboutTitle">About the Website and Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <!-- Language switch -->
+  <div class="language-switcher">
+    <img src="images/flag-en.png" alt="English" onclick="setLanguage('en')">
+    <img src="images/flag-uk.png" alt="Ukrainian" onclick="setLanguage('uk')">
+    <img src="images/flag-pl.png" alt="Polish" onclick="setLanguage('pl')">
+    <img src="images/flag-de.png" alt="German" onclick="setLanguage('de')">
+  </div>
+
+  <a href="index.html" class="back-btn">← Back</a>
+
+  <main class="planet-page">
+    <div class="planet-view">
+      <!-- Title -->
+      <h1 data-lang="aboutHeader">About the Website and Developer</h1>
+
+      <!-- Full long text with translation -->
+      <p class="planet-info" data-lang="aboutText">
+        Space Explorer is an interactive web project which I created in 2026 as a passion project to bring the wonders of the Solar System closer to everyone.<br><br>
+        The main goal was to build a beautiful, educational, and fully functional space exploration experience using only pure HTML, CSS, and JavaScript — no external libraries or frameworks. On the home page, you see a stylized, animated model of the Solar System with orbiting planets, rotation effects, glowing atmospheres, and Saturn's rings — all crafted with CSS gradients, animations, and canvas for the starry background.<br><br>
+        Clicking on any planet or the Sun takes you to a dedicated page with a high-quality NASA photograph, detailed information, key parameters, and a collection of fascinating facts. The design is responsive, scrollable, and optimized for both desktop and mobile devices.<br><br>
+        The project combines science and art: realistic visuals on detail pages contrast with artistic CSS planets on the main view. All images are carefully selected from NASA's public archives, and the facts are based on the latest astronomical data.<br><br>
+        <strong>About the developer:</strong> My name is Victor — I'm a self-taught web developer and space enthusiast. I love creating clean, performant websites that are both beautiful and educational. This project started as a weekend experiment and grew into something I'm really proud of. I wanted to make space exploration accessible and inspiring, especially for those who, like me, look up at the night sky and dream.<br><br>
+        If you have feedback, suggestions, bug reports, or just want to say hi — feel free to reach out at vikme@example.com. I'm always open to ideas for new features (maybe moons, asteroids, or 3D view in the future?).<br><br>
+        Thank you for visiting Space Explorer. Keep looking up! 🌌
+      </p>
+    </div>
+  </main>
+
+  <script src="stars.js"></script>
+  <script src="language.js"></script>
+</body>
+</html>

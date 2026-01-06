@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-lang="title">Space Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <!-- Language switch at the top right -->
+  <div class="language-switcher">
+    <img src="images/flag-en.png" alt="English" onclick="setLanguage('en')">
+    <img src="images/flag-uk.png" alt="Ukrainian" onclick="setLanguage('uk')">
+    <img src="images/flag-pl.png" alt="Polish" onclick="setLanguage('pl')">
+    <img src="images/flag-de.png" alt="German" onclick="setLanguage('de')">
+  </div>
+  <!-- Heading on the left -->
+  <header class="left-header">
+    <h1 class="title" data-lang="title">🌌 Space Explorer</h1>
+    <p class="subtitle" data-lang="subtitle">Explore the Solar System</p>
+    <p class="site-description" data-lang="description">An interactive journey through our Solar System with detailed planet views.</p>
+  </header>
+  <main class="stage">
+    <div id="sun">
+      <div class="sun-label" data-lang="sun">SUN</div>
+    </div>
+    <div id="planets"></div>
+  </main>
+  <!-- Button at the bottom right -->
+  <footer class="footer">
+    <a href="about.html" class="footer-btn" data-lang="about">About Website and Developer</a>
+  </footer>
+  <script src="stars.js"></script>
+  <script src="script.js"></script>
+  <script src="language.js"></script> 
+</body>
+</html>

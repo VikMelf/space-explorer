@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <div class="language-switcher">
+    <img src="images/flag-en.png" alt="English" onclick="setLanguage('en')">
+    <img src="images/flag-uk.png" alt="Ukrainian" onclick="setLanguage('uk')">
+    <img src="images/flag-pl.png" alt="Polish" onclick="setLanguage('pl')">
+    <img src="images/flag-de.png" alt="German" onclick="setLanguage('de')">
+  </div>
+
+  <a href="index.html" class="back-btn">← Back</a>
+
+  <main class="planet-page">
+    <div class="article-layout-reverse">
+      <div class="info-sections">
+        <h1 id="planetName"></h1>
+        <div id="planetInfo"></div>
+      </div>
+      <div class="planet-photo"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="about.html" class="footer-btn" data-lang="about">About Website and Developer</a>
+  </footer>
+
+  <script src="stars.js"></script>
+  <script src="language.js"></script>   
+  <script src="planet.js"></script>     
+</body>
+</html>
