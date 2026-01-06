@@ -41,7 +41,7 @@ Language is selected via flag icons and saved in localStorage, so the choice per
 
 Hi, I'm Viсtor – a self-taught web developer and space enthusiast. This project started as a weekend experiment and turned into a portfolio piece I'm really proud of. I love creating clean, performant, and visually appealing websites that educate and inspire.
 
-Feel free to reach out at vikme@example.com with feedback or suggestions!
+Feel free to reach out at vikmelf@gmail.com with feedback or suggestions!
 
 ## 📸 Screenshots
 (Screenshot1.png) (Screenshot2.png)
