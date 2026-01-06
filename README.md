@@ -44,7 +44,7 @@ Hi, I'm Viсtor – a self-taught web developer and space enthusiast. This proje
 Feel free to reach out at vikme@example.com with feedback or suggestions!
 
 ## 📸 Screenshots
-
+(Screenshot1.png) (Screenshot2.png)
 
 ## 🚀 Deployment
 
